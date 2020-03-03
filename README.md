@@ -28,4 +28,8 @@ Input_cmd_in Terminal :
 
 ![alt text](https://github.com/imhimansu28/DjangoProject1/blob/master/img/img2.png)
 
+Output :
+
+![alt text](https://github.com/imhimansu28/DjangoProject1/blob/master/img/img1.png)
+
 
