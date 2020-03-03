@@ -20,3 +20,12 @@ Select Django
 Enter Project Name
 
 
+## Step -2 
+
+Check your all file everthing is ok !
+
+Input_cmd_in Terminal :
+
+![alt text](https://github.com/imhimansu28/DjangoProject1/img/img2.png)
+
+
