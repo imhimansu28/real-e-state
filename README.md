@@ -1,35 +1,47 @@
-# How to start a  Django Project
+# Building a Real E-State Application
+
+## Creating	an	isolated	Python environment
+
+```console
+pip install virtualenv
+```
+After you install virtualenv, create an isolated enviroment with the following command:
+
+```console
+virtualenv my_env
+```
+This	will	create	a	my_env/	directory,	including	your	Python environment.	Any	Python	libraries	you	install	while	your	virtual environment	is	active	will	go	into	the	
+**my_env/
+     lib/
+      python3.6/
+         site-packages directory.**
 
 
-### Requirements for Project
+Create the virtualenv for Project  with following Command:
 
- * Text Editor and IDE
- 
-[Downlaod PyCharm Professional](https://www.jetbrains.com/pycharm/)
- * Database 
+__for Windows User__
 
-[Download Postgres SQL](https://www.postgresql.org/)
+```console
+python -m venv env 
+```
 
----
-##  Step -1  (Create a Project Directory)
+__for Linux  User__
 
-Open Pycharm IDE  and Click a Create New Project 
+```console
+python3 -m venv env 
+```
 
-Select Django 
+Run	the	following	command	to	activate	your	virtual	environment:
 
-Enter Project Name
+__for Windows User__
 
+```console
+source	my_env/Scripts/Activate
+```
 
-## Step -2 
+__for Linux  User__
 
-Check your all file everthing is ok !
+```console
+source	my_env/bin/activate 
+```
 
-Input_cmd_in Terminal :
-
-![alt text](https://github.com/imhimansu28/DjangoProject1/blob/master/img/img2.png)
-
-Output :
-
-![alt text](https://github.com/imhimansu28/DjangoProject1/blob/master/img/img1.png)
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/imhimansu28/DjangoProject1.git)
