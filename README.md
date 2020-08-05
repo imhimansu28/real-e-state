@@ -60,3 +60,27 @@ Now check whether Django has been successfully installed. Run **python** on a te
 '3.0.1'
 
 ```
+
+# Creating your Project:
+---
+
+Our first Django project will buillding a complete Real E-state. Django Provides a command that allow you to create an  initial project file struture.
+
+Run the following command from your activate env terminal:
+
+```bash
+django-admin startproject mysite
+```
+This will create a Django Project with the name mysite.
+
+#### Let's take a look at the project structure genrated:
+
+```console
+mysite/
+     manage.py
+     mysite/
+          init__.py
+          settings.py
+          urls.py
+          wsgi.py
+```
