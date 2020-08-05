@@ -84,3 +84,17 @@ mysite/
           urls.py
           wsgi.py
 ```
+
+## These	files	are	as	follows:
+
+__manage.py:__ is	is	a	command-line	utility	used	to	interact	with your	project.	It	is	a	thin	wrapper	around	the	django-admin.py tool.	You	don't	need	to	edit	this	file.
+
+__mysite/:__  is	is	your	project	directory,	which	consists	of	the following	files:
+
+__init.py:__	An	empty	file	that	tells	Python	to	treat	the mysite	directory	as	a	Python	module.
+
+__settings.py:__	This	indicates	settings	and	configuration for	your	project	and	contains	initial	default	settings.
+
+__urls.py:__	This	is	the	place	where	your	URL	patterns live.	Each	URL	defined	here	is	mapped	to	a	view.
+
+__wsgi.py:__	This	is	the	configuration	to	run	your	project as	a	Web	Server	Gateway Interface	(WSGI)	application.
