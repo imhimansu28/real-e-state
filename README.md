@@ -44,4 +44,19 @@ __for Linux  User__
 ```console
 source	my_env/bin/activate 
 ```
+# Installing Django with pip
 
+```console
+pip install Django
+```
+
+Django will be installed in the Python site-packages/ directory of your environment
+
+Now check whether Django has been successfully installed. Run **python** on a terminal, import Djnago, check its version, as follows:
+
+```console
+>>> import django
+>>> djnago.get_version()
+'3.0.1'
+
+```
