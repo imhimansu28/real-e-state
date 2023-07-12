@@ -1,10 +1,10 @@
-# btre_project
+# Depoly Project On Ubuntu Server
 Django real estate website project
 
 
 # Deployment Instructions From Brad Traversy.
 
-# Django Deployment to Ubuntu 18.04
+# Django Deployment to Ubuntu 23.04
 
 In this guide I will go through all the steps to create a VPS, secure it and deploy a Django application. This is a summarized document from this [digital ocean doc](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-18-04)
 
